@@ -1,0 +1,6 @@
+{
+  "name": "BJJ Performance Cross-Sell",
+  "description": "Premium mobile-first One-Click Cross-Sell landing page for BJJ Performance System",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

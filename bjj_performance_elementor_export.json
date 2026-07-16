@@ -1,0 +1,250 @@
+{
+  "template_name": "BJJ Performance Cross-Sell Landing Page",
+  "version": "1.0.0",
+  "platform_compatibility": "WordPress Elementor / JSON Custom Import",
+  "theme": {
+    "background_color": "#090909",
+    "primary_text_color": "#FFFFFF",
+    "secondary_text_color": "#BFBFBF",
+    "accent_color": "#D4AF37",
+    "cta_color": "#19C15F",
+    "border_color": "rgba(255, 255, 255, 0.05)",
+    "font_family_primary": "Inter, sans-serif",
+    "font_family_display": "Space Grotesk, sans-serif",
+    "border_radius_container": "24px",
+    "border_radius_button": "16px"
+  },
+  "sections": [
+    {
+      "id": "urgency_alert_banner",
+      "type": "banner",
+      "settings": {
+        "background_color": "#cc1111",
+        "text_color": "#FFFFFF",
+        "border_color": "#990000"
+      },
+      "elements": {
+        "badge_text": "⚠️ WAIT! YOUR ORDER IS NOT COMPLETE YET!",
+        "sub_badge_text": "Do NOT close or refresh this page — you'll lose your order and this exclusive offer forever."
+      }
+    },
+    {
+      "id": "progress_bar_section",
+      "type": "progress",
+      "settings": {
+        "background_color": "#0f0f0f",
+        "progress_color": "#2563eb",
+        "percent_complete": 91
+      },
+      "elements": {
+        "label": "Finalizing your order...",
+        "value_text": "91% Complete"
+      }
+    },
+    {
+      "id": "hero_section",
+      "type": "header_and_intro",
+      "elements": {
+        "warning_badge_text": "⚠️ WAIT!",
+        "headline_line_1": "Your techniques",
+        "headline_line_2": "are ready.",
+        "subheadline_1": "Mastering techniques is only the first step.",
+        "subheadline_2": "Performing them consistently is what separates average grapplers from exceptional ones.",
+        "body_copy": "The better your body performs, the more effectively you can apply every technique you've already learned."
+      }
+    },
+    {
+      "id": "interactive_mockup_placeholder",
+      "type": "interactive_device_simulation",
+      "settings": {
+        "container_aspect_ratio": "4:5",
+        "interactive_tabs": ["warmup", "mobility", "recovery"]
+      },
+      "elements": {
+        "placeholder_label": "PRODUCT MOCKUP PLACEHOLDER",
+        "simulation_version": "BJJ SYSTEM v2.1",
+        "recovery_status": "98.4% RECOVERY",
+        "programs": {
+          "warmup": [
+            { "name": "Hip Escape Mobility Flow", "duration": "4 min", "intensity": "Medium", "target": "Hips & Lower Back" },
+            { "name": "Thoracic Bridge Protocol", "duration": "3 min", "intensity": "High", "target": "Shoulders & Spine" },
+            { "name": "K Guard Knee-In Prep", "duration": "5 min", "intensity": "Medium", "target": "Adductors & Knees" }
+          ],
+          "mobility": [
+            { "name": "Guard Retention Flex Flow", "duration": "8 min", "intensity": "Low", "target": "Hip Flexors" },
+            { "name": "Scapular Decompression", "duration": "6 min", "intensity": "Low", "target": "Upper Back & Neck" },
+            { "name": "Combat Base Squat Flow", "duration": "10 min", "intensity": "Medium", "target": "Ankles & Deep Hips" }
+          ],
+          "recovery": [
+            { "name": "Post-Sparring Decompression", "duration": "12 min", "intensity": "Low", "target": "CNS Reset" },
+            { "name": "Hyper-Oxygenation Breath", "duration": "5 min", "intensity": "Very Low", "target": "Parasympathetic" },
+            { "name": "Joint Anti-Inflam System", "duration": "15 min", "intensity": "Low", "target": "Full Body" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "designed_badge",
+      "type": "info_badge",
+      "elements": {
+        "icon": "🥋",
+        "text": "Designed specifically for BJJ athletes who want to train consistently, recover faster, and perform at their best."
+      }
+    },
+    {
+      "id": "why_grapplers_struggle",
+      "type": "pain_point_checklist",
+      "elements": {
+        "header_tag": "COMMON BOTTLENECK",
+        "title": "Why do so many grapplers improve slowly?",
+        "intro_paragraphs": [
+          "It's usually not because they lack techniques.",
+          "Most grapplers already know what they should do.",
+          "The real challenge is being physically prepared to execute those techniques consistently during every training session and every match."
+        ],
+        "pain_points": [
+          {
+            "id": "mobility",
+            "title": "Limited mobility",
+            "desc": "Inability to close deep guards, clear frames, or slide into sweeps without pinching joints or risking groin strains.",
+            "solution": "Our target Mobility Flows unlock deep BJJ angles so you transition smoothly without feeling stiff."
+          },
+          {
+            "id": "recovery",
+            "title": "Poor recovery",
+            "desc": "Waking up stiff, sore, and exhausted. Feeling completely depleted after just two hard rounds of sparring.",
+            "solution": "Our active Decompression protocols reset your central nervous system so you wake up fully energized."
+          },
+          {
+            "id": "fatigue",
+            "title": "Shoulder fatigue",
+            "desc": "Your arms feel like lead after framing. Once your shoulders fail, you expose your neck, back, and posture.",
+            "solution": "Targeted joint stabilization exercises reinforce your shoulders, making your defensive frames solid as concrete."
+          },
+          {
+            "id": "grip",
+            "title": "Weak grip",
+            "desc": "Losing sleeve control in seconds. Your fingers cramp up, forcing you into a defensive, reactive game.",
+            "solution": "Specific tendon-glide warm-ups and isometric grip protocols ensure your controls remain locked in."
+          },
+          {
+            "id": "endurance",
+            "title": "Low endurance",
+            "desc": "Technical execution completely collapses the second your heart rate spikes and you enter oxygen debt.",
+            "solution": "Specific jiu-jitsu cardiovascular training conditions your lungs to keep you calm and technical in deep water."
+          }
+        ],
+        "conclusion_text": "When your body performs better, every technique becomes easier to execute."
+      }
+    },
+    {
+      "id": "introducing_system",
+      "type": "product_features",
+      "elements": {
+        "header_tag": "EXCLUSIVE SYSTEM OVERVIEW",
+        "label": "Introducing",
+        "title": "BJJ PERFORMANCE SYSTEM",
+        "subtitle": "The complete physical performance system designed specifically for Jiu-Jitsu practitioners.",
+        "slogan_badges": [
+          "Train Harder",
+          "Recover Faster",
+          "Move Better",
+          "Perform At Highest"
+        ],
+        "features": [
+          {
+            "id": "warmup",
+            "title": "Complete Warm-Up Protocols",
+            "badge": "PRE-TRAINING",
+            "shortDesc": "Activate grappling-specific muscles and neural pathways in 5-8 minutes.",
+            "detailDesc": "Move away from generic cardio. These science-backed mobility protocols are designed specifically to prime your hips, rotator cuffs, and neck before stepping onto the mats. Reduces initial round fatigue by up to 35%.",
+            "duration": "5 - 8 mins",
+            "focus": "Neural Activation"
+          },
+          {
+            "id": "mobility",
+            "title": "Mobility Flows",
+            "badge": "MOVEMENT",
+            "shortDesc": "Unlock deep joint angles to slide into positions and escape holds easily.",
+            "detailDesc": "Say goodbye to stiff hips. Target the exact rotational capacity required for rubber guard, inverted transitions, deep half, and complex guard passes. Unshackles tight joints without sacrificing muscular power.",
+            "duration": "10 - 15 mins",
+            "focus": "Joint Amplitude"
+          },
+          {
+            "id": "recovery",
+            "title": "Recovery Systems",
+            "badge": "DECOMPRESSION",
+            "shortDesc": "Active central nervous system protocols to optimize deep sleep and reset.",
+            "detailDesc": "The secret weapon of elite competitors. Guided post-training routines trigger parasympathetic activation to stop soreness before it starts. Optimizes natural endocrine recovery so you can train hard consecutive days.",
+            "duration": "12 mins",
+            "focus": "CNS Restoration"
+          },
+          {
+            "id": "injury",
+            "title": "Injury Prevention",
+            "badge": "STABILIZATION",
+            "shortDesc": "Strengthen shoulders, neck, and ligaments against high-stress submissions.",
+            "detailDesc": "Reinforce the joints most vulnerable to injury in BJJ. Focuses on isometric neck strength, wrist stabilizers, and rotator cuff durability so you can tap out of choice rather than mechanical breakdown.",
+            "duration": "8 mins",
+            "focus": "Joint Durability"
+          },
+          {
+            "id": "strength",
+            "title": "Jiu-Jitsu Strength Training",
+            "badge": "PERFORMANCE",
+            "shortDesc": "Build explosive rotational power, isometric grip tension, and core rigidity.",
+            "detailDesc": "Grappling-specific weight and bodyweight regimes. Focuses on posterior chain power to boost sweeps, pull-ups for secure grips, and deep core stabilizers to resist high-pressure guard passes.",
+            "duration": "20 - 30 mins",
+            "focus": "Functional Force"
+          },
+          {
+            "id": "planning",
+            "title": "Training & Competition Planning",
+            "badge": "PERIODIZATION",
+            "shortDesc": "Structure your weeks, match workloads, and peak safely for tournaments.",
+            "detailDesc": "Prevent overtraining syndrome. This template shows you how to program light, medium, and heavy sparring days so you step on the mats in peak physical condition without lingering joint wear and tear.",
+            "duration": "Self-paced",
+            "focus": "Workload Strategy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "offer_pricing_card",
+      "type": "checkout_pricing_box",
+      "elements": {
+        "badge_text": "EXCLUSIVE UPGRADE",
+        "product_name": "The BJJ Performance Package",
+        "retail_price_label": "Retail Price",
+        "retail_price_value": "$297",
+        "today_price_label": "Today's Exclusive Price",
+        "today_price_value": "$47",
+        "price_suffix": "one-time only",
+        "guarantees": [
+          "One-Time Payment",
+          "Lifetime Access",
+          "30-Day Money-Back Guarantee"
+        ],
+        "cta_button_title": "YES! UPGRADE MY ORDER",
+        "cta_button_subtitle": "Add the BJJ Performance System to My Order",
+        "decline_text": "No thanks. I'll continue with my current order."
+      }
+    },
+    {
+      "id": "guarantee_badge_block",
+      "type": "full_guarantee_alert",
+      "elements": {
+        "title": "30-Day Money Back Guarantee",
+        "desc": "Try it risk-free. If you're not completely satisfied, email us within 30 days for a full refund — no questions asked."
+      }
+    },
+    {
+      "id": "footer",
+      "type": "simple_footer",
+      "elements": {
+        "checkout_terms": "Secure Checkout • Instant Access • 30-Day Money-Back Guarantee",
+        "copyright": "© 2026 BJJ Performance Labs. All Rights Reserved."
+      }
+    }
+  ]
+}

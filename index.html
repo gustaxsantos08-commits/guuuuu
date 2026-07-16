@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BJJ Performance Systems</title>
+    <script>
+      (function() {
+        try {
+          var currentFetch = window.fetch;
+          var fetchVal = currentFetch;
+          Object.defineProperty(window, 'fetch', {
+            get: function() {
+              return fetchVal;
+            },
+            set: function(val) {
+              fetchVal = val;
+            },
+            configurable: true,
+            enumerable: true
+          });
+        } catch (e) {
+          try {
+            var proto = Object.getPrototypeOf(window);
+            if (proto) {
+              var pFetch = window.fetch;
+              Object.defineProperty(proto, 'fetch', {
+                get: function() {
+                  return pFetch;
+                },
+                set: function(val) {
+                  pFetch = val;
+                },
+                configurable: true,
+                enumerable: true
+              });
+            }
+          } catch (err2) {
+            console.warn("Could not patch window.fetch accessor:", err2);
+          }
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
